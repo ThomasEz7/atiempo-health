@@ -5,6 +5,10 @@ const nextConfig = {
     remotePatterns: [],
     unoptimized: true,
   },
+  experimental: {
+    serverActions: true,
+  },
+  output: 'standalone',
 }
 
 module.exports = nextConfig 
