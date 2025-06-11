@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function Fragebogen() {
   const [answers, setAnswers] = useState({
     // Abschnitt 1
-    koerperlich: '',
+    koerperlich: 'wurstig',
     bewegung: '',
     ernaehrung: '',
     beschwerden: '',

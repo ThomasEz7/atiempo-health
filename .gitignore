@@ -72,3 +72,5 @@ next-env.d.ts
 *.f4p
 *.f4a
 *.f4b
+
+/src/generated/prisma
