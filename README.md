@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🛠 Tech-Stack Overview – Atiempo Health
 
-## Getting Started
+### 🎨 Frontend
+- **React** – Die Benutzeroberfläche basiert auf React, einem modernen JavaScript-Framework für komponentenbasiertes UI-Design.
+- **Next.js** (v14.x) – Wird für serverseitiges Rendering, Routing und API-Routen genutzt.
+- **Tailwind CSS** – Utility-First-CSS-Framework für ein schnelles, responsives Design.
+- **TypeScript** – Optional, aber empfohlen zur Typisierung und besseren Wartbarkeit des Codes.
 
-First, run the development server:
+### 🔧 Backend / API
+- **Next.js API Routes** – Für serverseitige Logik und Endpunkte wie Authentifizierung und Datenbankzugriffe.
+- **Prisma ORM** – Objekt-Relationales Mapping für den Datenbankzugriff und Schema-Verwaltung.
+- **NextAuth.js** – Zur Authentifizierung und Sitzungsverwaltung (Login, geschützte Bereiche).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🗄️ Datenbank
+- **PostgreSQL** – Relationale Datenbank, lokal oder über Cloud-Anbieter wie Supabase, Neon, Railway oder Vercel Postgres.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 DevOps & Hosting
+- **Vercel** – Deployment-Plattform für Hosting, CI/CD und automatische Releases direkt aus dem GitHub-Repository.
+- **GitHub** – Für Quellcodeverwaltung, Versionskontrolle und Team-Zusammenarbeit.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🧰 Weitere Tools
+- **ESLint & Prettier** – Für sauberen, einheitlich formatierten Code.
+- **Prisma Studio** – Visuelle Oberfläche zur Inspektion und Verwaltung der Datenbank während der Entwicklung.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🧩 Zusammenfassung
+Das Projekt basiert auf einem modernen **Fullstack-Stack** bestehend aus **Next.js, React, Tailwind CSS, Prisma ORM, PostgreSQL** und wird auf **Vercel** gehostet. Die Authentifizierung erfolgt über **NextAuth.js**, der Code liegt auf **GitHub**.  
