@@ -13,7 +13,7 @@ export default function Home() {
             href="/fragebogen"
             className="bg-white text-blue-900 px-6 py-2 rounded-full text-sm font-semibold hover:bg-blue-100 transition-colors"
           >
-            Penisbogen
+            Fragebogen
           </Link>
           <Link 
             href="/login"
@@ -48,13 +48,19 @@ export default function Home() {
         <div className="relative h-full flex items-center justify-center text-center px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Karsten ist der Größte
+              Atiempo Health
             </h1>
+            <p className="text-xl md:text-2xl text-blue-100 mb-4">
+              Dein Weg.
+            </p>
+            <p className="text-xl md:text-2xl text-blue-100 mb-4">
+              Deine Zeit.
+            </p>
             <p className="text-xl md:text-2xl text-blue-100 mb-8">
-              Karsten Groß Größer am Größten GmbH
+              Deine Gesundheit.
             </p>
             <button className="bg-white text-blue-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-100 transition-colors">
-              Termin verpenissen
+              Termin vereinbaren
             </button>
           </div>
         </div>
@@ -95,7 +101,7 @@ export default function Home() {
                 className="bg-white text-blue-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-100 transition-colors flex items-center"
                 onClick={() => {
                   // Hier später den PDF-Download-Link einfügen
-                  alert('Der Download wird in Penis verfügbar sein.');
+                  alert('Der Download wird in Kürze verfügbar sein.');
                 }}
               >
                 <svg 

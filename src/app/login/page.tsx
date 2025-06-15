@@ -47,7 +47,7 @@ export default function LoginPage() {
             {error}
           </div>
         )}
-
+        
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label htmlFor="email" className="block text-white mb-2">E-Mail</label>
